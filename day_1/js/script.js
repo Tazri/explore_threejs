@@ -19,4 +19,9 @@ const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
     75, /** field of view */
     window.innerWidth/window.innerHeight, /** aspect ratio */
+    0.1, /** near */
+    1000
 )
+
+// render the camera and scene
+renderer.render(scene,camera); /** render the stuff */
