@@ -1,0 +1,6 @@
+# skip the node_modles
+node_modules/
+
+# parcel files
+.parcel-cache
+dist/

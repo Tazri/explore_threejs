@@ -1,0 +1,22 @@
+{
+  "name": "explore_threejs",
+  "version": "1.0.0",
+  "description": "This is for explore three js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tazri/explore_threejs.git"
+  },
+  "author": "Md Tazri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tazri/explore_threejs/issues"
+  },
+  "homepage": "https://github.com/Tazri/explore_threejs#readme",
+  "dependencies": {
+    "three": "^0.143.0"
+  }
+}
